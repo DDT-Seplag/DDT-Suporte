@@ -855,7 +855,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 118px 0px 305px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -906,10 +906,10 @@ Banner Style
 
 .main-banner .left-content h2 {
   border-top: 1px solid #333333;
-  margin-top: 30px;
-  padding-top: 20px;
-  margin-bottom: 45px;
-  font-size: 60px;
+  margin-top: 15px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
   font-weight: 800;
   color: #2a2a2a;
   line-height: 72px;
@@ -1637,6 +1637,9 @@ footer p a:hover {
   color: #47cbaa;
 }
 
+
+
+
 /*
 ---------------------------------------------
 responsive
@@ -1730,6 +1733,7 @@ responsive
     max-width: 30px;
     margin-left: 5px;
   }
+
   .main-banner .info-stat {
     margin-bottom: 15px;
   }
