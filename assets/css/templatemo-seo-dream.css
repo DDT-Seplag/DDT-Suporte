@@ -1642,6 +1642,18 @@ footer p a:hover {
 responsive
 ---------------------------------------------
 */
+@media (max-width: 1440px) {
+  .header-area .main-nav .logo h4 {
+    font-size: 17px;
+  }
+  .header-area .main-nav .logo h4 img {
+    max-width: 15px;
+    margin-left: 0px;
+  }
+  .header-area .main-nav .nav li:last-child {
+    padding-left: 20px;
+  }
+}
 
 @media (max-width: 1200px) {
   .header-area .main-nav .logo h4 {
@@ -1655,6 +1667,7 @@ responsive
     padding-left: 20px;
   }
 }
+
 
 @media (max-width: 992px) {
   .header-area .main-nav .logo h4 {
@@ -1711,7 +1724,7 @@ responsive
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo h4 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .header-area .main-nav .logo h4 img {
     max-width: 30px;
@@ -1750,7 +1763,7 @@ responsive
   .hand {
       cursor:pointer;
   }
-  
+
   form#contact {
     padding: 30px;
   }
