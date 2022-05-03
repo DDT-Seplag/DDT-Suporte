@@ -1758,8 +1758,12 @@ responsive
   }
   .about-us .about-item {
     margin-top: 15px;
-  }
+   }
 
+
+  div.hand li:hover > ul {
+    cursor:pointer;
+  }
   .hand {
       cursor:pointer;
   }
