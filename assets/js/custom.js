@@ -1,5 +1,30 @@
+function navToLink2() {
+    window.location.href = "index2.html";
+}
+
+function navToLink3() {
+    window.location.href = "index3.html";
+}
+
+function navToLink4() {
+    window.location.href = "index4.html";
+}
+
+function navToLink5() {
+    window.location.href = "index5.html";
+}
+
+function navToLink6() {
+    window.location.href = "index6.html";
+}
+
+function navToLink7() {
+    window.location.href = "index7.html";
+}
+
+
 (function ($) {
-	
+
 	"use strict";
 
 	// Header Type = Fixed
@@ -15,6 +40,7 @@
     }
   });
 
+// Divs Clicáveis
 
 	$('.loop').owlCarousel({
       center: true,
@@ -23,17 +49,17 @@
       nav: true,
       margin:30,
       responsive:{
-          
+
           992:{
               items:4
           }
       }
   });
-	
+
 
 	// Menu Dropdown Toggle
   if($('.menu-trigger').length){
-    $(".menu-trigger").on('click', function() { 
+    $(".menu-trigger").on('click', function() {
       $(this).toggleClass('active');
       $('.header-area .nav').slideToggle(200);
     });
@@ -49,8 +75,8 @@
         var width = $(window).width();
         if(width < 991) {
           $('.menu-trigger').removeClass('active');
-          $('.header-area .nav').slideUp(200);  
-        }       
+          $('.header-area .nav').slideUp(200);
+        }
         $('html,body').animate({
           scrollTop: (target.offset().top) + 1
         }, 700);
@@ -61,17 +87,17 @@
 
   $(document).ready(function () {
       $(document).on("scroll", onScroll);
-      
+
       //smoothscroll
       $('.scroll-to-section a[href^="#"]').on('click', function (e) {
           e.preventDefault();
           $(document).off("scroll");
-          
+
           $('.scroll-to-section a').each(function () {
               $(this).removeClass('active');
           })
           $(this).addClass('active');
-        
+
           var target = this.hash,
           menu = target;
           var target = $(this.hash);
@@ -108,7 +134,7 @@
 
     });
 
-	
+
 
 	// Window Resize Mobile Menu Fix
   function mobileNav() {

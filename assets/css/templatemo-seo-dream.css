@@ -1622,6 +1622,7 @@ Footer Style
 ---------------------------------------------
 */
 
+
 footer p {
   text-align: center;
   margin: 30px 0px;
@@ -1700,6 +1701,9 @@ responsive
   .contact-info {
     margin-top: 60px;
   }
+  .maozinha{
+    cursor: pointer;
+  }
   form#contact {
     padding: 45px;
   }
@@ -1742,6 +1746,11 @@ responsive
   .about-us .about-item {
     margin-top: 15px;
   }
+
+  .hand {
+      cursor:pointer;
+  }
+  
   form#contact {
     padding: 30px;
   }
