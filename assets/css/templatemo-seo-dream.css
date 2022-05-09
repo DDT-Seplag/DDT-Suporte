@@ -938,6 +938,7 @@ Banner Style
 Features Style
 ---------------------------------------------
 */
+
 .texto-tempo2 p{
   margin-left: -157px;
   margin-right: 27px;
@@ -964,6 +965,11 @@ Features Style
 
 }
 #caminhao2{
+  margin-top: -30px;
+  margin-left: 155px;
+
+}
+#caminhao1{
   margin-top: -30px;
   margin-left: 30px;
 
@@ -1093,7 +1099,7 @@ Features Style
 .features-item .line-dec {
   width: 100px;
   height: 2px;
-  background-color: rgba(51,204,197,0.3);
+  background-color: #47cbaa;
   margin: 30px auto;
   transition: all 0.5s;
 }
