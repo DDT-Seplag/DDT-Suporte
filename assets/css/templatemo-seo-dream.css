@@ -1392,7 +1392,7 @@ Services Style
 .service-item {
   padding-block: 60px 30px;
   border: 2px solid #f7f7f7;
-  border-radius: 5px;
+  border-radius: 40px;
   transition: all .3s;
   margin-bottom: 30px;
 
@@ -1400,6 +1400,7 @@ Services Style
 
 }
 
+}
 .service-item:hover {
   background-color: #fff;
   border: 2px solid transparent;
