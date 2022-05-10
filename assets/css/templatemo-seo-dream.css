@@ -938,7 +938,16 @@ Banner Style
 Features Style
 ---------------------------------------------
 */
+.texto-tempo4 p{
+  margin-left: -278px;
+  margin-right: 79px;
 
+}
+.texto-tempo3 p{
+  margin-left: 27px;
+  margin-right: -19px;
+
+}
 .texto-tempo2 p{
   margin-left: -157px;
   margin-right: 27px;
@@ -949,6 +958,13 @@ Features Style
   margin-right: 27px;
 
 }
+.line-dec3{
+  width: 1227px;
+  height: 2px;
+  background-color: #47cbaa;
+  margin: 0px ;
+  transition: all 0.5s;
+}
 .line-dec2{
   width: 1184px;
   height: 2px;
@@ -958,6 +974,11 @@ Features Style
 }
 #titulo32 h2{
   margin-top: -50px;
+}
+#caminhao4{
+  margin-top: -30px;
+  margin-left: 324px;
+
 }
 #caminhao3{
   margin-top: -30px;
@@ -1034,6 +1055,14 @@ Features Style
   background-image: url(../images/envio-icon-white.png);
 }
 
+.fourth-feature:hover .icon {
+  background-image: url(../images/mensagem-icon-white.png);
+}
+
+.fifth-feature:hover .icon {
+  background-image: url(../images/senha-icon-white.png);
+}
+
 .features-item .number h6 {
   background-repeat: no-repeat;
   width: 110px;
@@ -1075,6 +1104,14 @@ Features Style
 
 .third-feature .icon {
   background-image: url(../images/envio-icon-black.png);
+}
+
+.fourth-feature .icon {
+  background-image: url(../images/mensagem-icon-black.png);
+}
+
+.fifth-feature .icon {
+  background-image: url(../images/senha-icon-black.png);
 }
 
 .features-item .icon {
