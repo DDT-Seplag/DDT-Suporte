@@ -1063,6 +1063,10 @@ Features Style
   background-image: url(../images/senha-icon-white.png);
 }
 
+.sixth-feature:hover .icon {
+  background-image: url(../images/lupa-icon-white.png);
+}
+
 .features-item .number h6 {
   background-repeat: no-repeat;
   width: 110px;
@@ -1112,6 +1116,10 @@ Features Style
 
 .fifth-feature .icon {
   background-image: url(../images/senha-icon-black.png);
+}
+
+.sixth-feature .icon {
+  background-image: url(../images/lupa-icon-black.png);
 }
 
 .features-item .icon {
