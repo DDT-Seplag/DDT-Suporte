@@ -938,6 +938,23 @@ Banner Style
 Features Style
 ---------------------------------------------
 */
+.texto-tempo7 p{
+  margin-left: -281px;
+  margin-right: 78px;
+
+}
+.texto-tempo6 p{
+  margin-left: -231px;
+  margin-right: 27px;
+
+}
+
+.texto-tempo5 p{
+  margin-left: 32px;
+  margin-right: 36px;
+
+}
+
 .texto-tempo4 p{
   margin-left: -278px;
   margin-right: 79px;
@@ -958,6 +975,14 @@ Features Style
   margin-right: 27px;
 
 }
+.line-dec4{
+  width: 1227px;
+  height: 2px;
+  background-color: #47cbaa;
+  margin: 0px ;
+  transition: all 0.5s;
+}
+
 .line-dec3{
   width: 1227px;
   height: 2px;
@@ -975,6 +1000,30 @@ Features Style
 #titulo32 h2{
   margin-top: -50px;
 }
+#caminhao8{
+  margin-top: -30px;
+  margin-left: 324px;
+
+}
+
+#caminhao7{
+  margin-top: 20px;
+  margin-left: 324px;
+
+}
+
+#caminhao6{
+  margin-top: 20px;
+  margin-left: 155px;
+
+}
+
+#caminhao5{
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+
 #caminhao4{
   margin-top: -30px;
   margin-left: 324px;
@@ -1067,6 +1116,26 @@ Features Style
   background-image: url(../images/lupa-icon-white.png);
 }
 
+.seventh-feature:hover .icon {
+  background-image: url(../images/print-icon-white.png);
+}
+
+.eighth-feature:hover .icon {
+  background-image: url(../images/destino-icon-white.png);
+}
+
+.ninth-feature:hover .icon {
+  background-image: url(../images/origem-icon-white.png);
+}
+
+.tenth-feature:hover .icon {
+  background-image: url(../images/descricao-icon-white.png);
+}
+
+.eleventh-feature:hover .icon {
+  background-image: url(../images/estacao-icon-white.png);
+}
+
 .features-item .number h6 {
   background-repeat: no-repeat;
   width: 110px;
@@ -1121,6 +1190,27 @@ Features Style
 .sixth-feature .icon {
   background-image: url(../images/lupa-icon-black.png);
 }
+
+.seventh-feature .icon {
+  background-image: url(../images/print-icon-black.png);
+}
+
+.eighth-feature .icon {
+  background-image: url(../images/destino-icon-black.png);
+}
+
+.ninth-feature .icon {
+  background-image: url(../images/origem-icon-black.png);
+}
+
+.tenth-feature .icon {
+  background-image: url(../images/descricao-icon-black.png);
+}
+
+.eleventh-feature .icon {
+  background-image: url(../images/estacao-icon-black.png);
+}
+
 
 .features-item .icon {
   width: 63px;
